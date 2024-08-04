@@ -117,8 +117,9 @@ DB_USERNAME=your_username
 DB_PASSWORD=your_password
 
 5. **Run the migrations to create the tables in the database:**
-php artisan migrate
-php artisan db:seed (Optional)
+   ```sh
+   php artisan migrate
+   php artisan db:seed (Optional)
 
 6. **Start the development server:**
 php artisan serve
