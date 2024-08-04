@@ -102,24 +102,24 @@ To run the application, follow these steps:
    ```sh
    git clone https://github.com/FilipeNSV/api-laravel-mysql.git
 
-2. **Navigate to the project directory:**
+2. **Navigate to the project directory:** \
 cd your-repository
 
-3. **Install the project's dependencies:**
+3. **Install the project's dependencies:** \
 composer install
 
-4. **Configure the .env file with your database information:**
+4. **Configure the .env file with your database information:** \
 DB_CONNECTION=mysql \
 DB_HOST=127.0.0.1 \
 DB_PORT=3306 \
 DB_DATABASE=your_database_name \
 DB_USERNAME=your_username \
-DB_PASSWORD=your_password \
+DB_PASSWORD=your_password
 
 5. **Run the migrations to create the tables in the database:**
    ```sh
    php artisan migrate
    php artisan db:seed (Optional)
 
-6. **Start the development server:**
+6. **Start the development server:** \
 php artisan serve
