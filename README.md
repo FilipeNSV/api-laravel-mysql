@@ -99,31 +99,31 @@ The API provides complete CRUD functionalities for products, services, and trans
 To run the application, follow these steps:
 
 1. **Clone this repository:**
-  ```sh
-  git clone https://github.com/FilipeNSV/api-laravel-mysql.git
+   ```sh
+   git clone https://github.com/FilipeNSV/api-laravel-mysql.git
 
 2. **Navigate to the project directory:**
-  ```sh
-  cd your-repository
+   ```sh
+   cd your-repository
 
 3. **Install the project's dependencies:**
-  ```sh
-  composer install
+   ```sh
+   composer install
 
 4. **Configure the .env file with your database information:**
-  ```sh
-  DB_CONNECTION=mysql
-  DB_HOST=127.0.0.1
-  DB_PORT=3306
-  DB_DATABASE=your_database_name
-  DB_USERNAME=your_username
-  DB_PASSWORD=your_password
+   ```sh
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=your_database_name
+   DB_USERNAME=your_username
+   DB_PASSWORD=your_password
 
 5. **Run the migrations to create the tables in the database:**
-  ```sh
-  php artisan migrate
-  php artisan db:seed (Optional)
+   ```sh
+   php artisan migrate
+   php artisan db:seed (Optional)
 
 6. **Start the development server:**
-  ```sh
-  php artisan serve
+   ```sh
+   php artisan serve
